@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PromedioNotas19796703.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="promedio.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"/>
+            <Label Text="Digite las notas del alumno"/>
+            <Entry Placeholder="Nota 1"
+                   x:Name="n1"/>
+            <Entry Placeholder="Nota 2"
+       x:Name="n2"/>
+            <Entry Placeholder="Nota 3"
+       x:Name="n3"/>
+            <Entry Placeholder="Nota 4"
+       x:Name="n4"/>
+            <Entry Placeholder="Nota 5"
+       x:Name="n5"/>
+            <Button Text="Promediar"
+                    Clicked="Button_Clicked"/>
+            <Label Text="Promedio..." FontSize="24" HorizontalTextAlignment="Center" x:Name="promedio" Margin="5"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
