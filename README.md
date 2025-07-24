@@ -1,0 +1,1 @@
+En esta aplicacion de net maui, hacemos que el usuario ingrese 5 notas de un alumno, luego al darle click al boton lo que hara es promediar las 5 notas del estudiante y mostrar en el label de abajo cual es la nota promedio del alumno
